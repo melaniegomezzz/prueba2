@@ -20,7 +20,7 @@ const PizzaTranslator = () => {
       <Text style={{padding: 50, fontSize: 40}}>
         {text
           .split(' ')
-          .map(word => word && '🌸')
+          .map(word => word && '🌺')
           .join(' ')}
       </Text>
     </View>
